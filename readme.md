@@ -7,6 +7,8 @@ to be used inside your tests, to ensure your desired function is always as fast 
 
 ## Getting Started
 
+`yarn add -D wedgetail` or `npm install --save-dev wedgetail`
+
 `Wedgetail` can be easily inserted into your tests. It's reccomended you create a seperate test
 just for performance, as you cannot use the result of the function you are testing.
 
