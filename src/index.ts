@@ -125,6 +125,7 @@ function comparePerformance({
             tenth: expected.percentiles.tenth > results.percentiles.tenth,
         },
     };
+
     if (
         outcome.high &&
         outcome.low &&

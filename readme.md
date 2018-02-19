@@ -1,5 +1,7 @@
 # Wedgetail
 
+_Performance test your functions_
+
 [![View on npm](https://img.shields.io/npm/v/wedgetail.svg)](https://npmjs.org/packages/wedgetail)
 [![npm downloads](https://img.shields.io/npm/dm/wedgetail.svg)](https://npmjs.org/packages/wedgetail)
 [![Dependencies](https://img.shields.io/david/ojkelly/wedgetail.svg)](https://david-dm.org/ojkelly/wedgetail)
@@ -7,14 +9,16 @@
 [![codecov](https://codecov.io/gh/ojkelly/wedgetail/branch/master/graph/badge.svg)](https://codecov.io/gh/ojkelly/wedgetail)
 [![NSP Status](https://nodesecurity.io/orgs/ojkelly/projects/7f441bdb-76ab-4155-aec9-00777b5adc9a/badge)](https://nodesecurity.io/orgs/ojkelly/projects/7f441bdb-76ab-4155-aec9-00777b5adc9a)[![Known Vulnerabilities](https://snyk.io/test/npm/wedgetail/badge.svg)](https://snyk.io/test/npm/wedgetail)
 
-_Performance test your functions_
-
 Wedgetail is a small performance tesing library that runs on NodeJS `9.5.0` and above. It's designed
 to be used inside your tests, to ensure your desired function is always as fast as you want it to be.
 
 ## Getting Started
 
-`yarn add -D wedgetail` or `npm install --save-dev wedgetail`
+Add `wedgetail` to your `devDependencies`.
+
+`yarn add -D wedgetail`
+
+`npm install --save-dev wedgetail`
 
 `Wedgetail` can be easily inserted into your tests. It's reccomended you create a seperate test
 just for performance, as you cannot use the result of the function you are testing.
