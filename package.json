@@ -1,6 +1,6 @@
 {
   "name": "wedgetail",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "description": "Time your functions in your tests",
   "main": "./lib/src/index.js",
   "scripts": {
