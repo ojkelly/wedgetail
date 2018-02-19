@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "lib",
+        "declaration": true,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "moduleResolution": "node",
+        "strict": true,
+        "sourceMap": true,
+        "inlineSources": false,
+        "strictNullChecks": true,
+        "watch": false,
+        "allowSyntheticDefaultImports": false
+    },
+    "filesGlob": ["typings.d.ts", "./src/**/*.ts", "./test/**/*.ts"],
+    "exclude": ["node_modules"]
+}

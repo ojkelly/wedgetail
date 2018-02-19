@@ -1,0 +1,84 @@
+{
+    "name": "wedgetail",
+    "version": "0.9.0",
+    "description": "Time your functions in your tests",
+    "main": "./lib/src/index.js",
+    "scripts": {
+        "info": "npm-scripts-info",
+        "dev": "ava-ts ./tests/*.spec.ts --watch",
+        "clean": "rimraf ./lib ./.nyc_output ./coverage",
+        "build": "yarn clean && tsc -p tsconfig.json",
+        "unit": "yarn build && nyc ava",
+        "check-coverage":
+            "nyc check-coverage --lines 50 --functions 70 --branches 60",
+        "test": "yarn unit && yarn check-coverage",
+        "cov": "yarn unit && yarn html-coverage",
+        "html-coverage": "nyc report --reporter=html",
+        "send-coverage":
+            "nyc report --reporter=lcov > coverage.lcov && codecov",
+        "docs":
+            "typedoc src/index.ts --excludePrivate --mode file --theme minimal --out lib/docs && opn lib/docs/index.html",
+        "docs:json":
+            "typedoc --mode file --json lib/docs/typedoc.json src/index.ts",
+        "release": "yarn run build && standard-version"
+    },
+    "scripts-info": {
+        "info": "Display information about the scripts",
+        "build": "(Trash and re)build the library",
+        "unit": "Run unit tests",
+        "test": "Lint and test the library",
+        "watch":
+            "Watch source files, rebuild library on changes, rerun relevant tests",
+        "watch:build": "Watch source files, rebuild library on changes",
+        "watch:unit": "Watch the build, rerun relevant tests on changes",
+        "cov":
+            "Run tests, generate the HTML coverage report, and open it in a browser",
+        "html-coverage": "Output HTML test coverage report",
+        "send-coverage":
+            "Output lcov test coverage report and send it to codecov",
+        "docs": "Generate API documentation and open it in a browser",
+        "docs:json": "Generate API documentation in typedoc JSON format",
+        "release":
+            "Bump package.json version, update CHANGELOG.md, tag a release"
+    },
+    "keywords": ["performance", "performance-now", "now", "timing"],
+    "author": "Owen Kelly <owen@owenkelly.com.au>",
+    "license": "MIT",
+    "engines": {
+        "node": "<9.5.0"
+    },
+    "repository": {
+        "type": "github",
+        "url": "https://github.com/ojkelly/wedgetail"
+    },
+    "nyc": {
+        "exclude": ["**/*.spec.js"]
+    },
+    "ava": {
+        "files": ["lib/**/*.spec.js"],
+        "source": ["lib/**/*"]
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "pretty-quick --staged"
+        }
+    },
+    "dependencies": {
+        "percentile": "^1.2.0"
+    },
+    "devDependencies": {
+        "@types/prettier": "^1.10.0",
+        "ava": "^0.25.0",
+        "ava-ts": "^0.24.2",
+        "codecov": "^3.0.0",
+        "husky": "^0.14.3",
+        "npm-scripts-info": "^0.3.7",
+        "nyc": "^11.4.1",
+        "prettier": "^1.10.2",
+        "rimraf": "^2.6.2",
+        "standard-version": "^4.3.0",
+        "ts-node": "^4.1.0",
+        "typedoc": "^0.10.0",
+        "typescript": "^2.7.1"
+    }
+}
