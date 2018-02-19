@@ -5,7 +5,7 @@
 [![Dependencies](https://img.shields.io/david/ojkelly/wedgetail.svg)](https://david-dm.org/ojkelly/wedgetail)
 [![Build Status](https://travis-ci.org/ojkelly/wedgetail.svg?branch=master)](https://travis-ci.org/ojkelly/wedgetail)
 [![codecov](https://codecov.io/gh/ojkelly/wedgetail/branch/master/graph/badge.svg)](https://codecov.io/gh/ojkelly/wedgetail)
-[![NSP Status](https://nodesecurity.io/orgs/ojkelly/projects/7f441bdb-76ab-4155-aec9-00777b5adc9a/badge)](https://nodesecurity.io/orgs/ojkelly/projects/7f441bdb-76ab-4155-aec9-00777b5adc9a)[![Known Vulnerabilities](https://snyk.io/test/npm/bunjil/badge.svg)](https://snyk.io/test/npm/wedgetail)
+[![NSP Status](https://nodesecurity.io/orgs/ojkelly/projects/7f441bdb-76ab-4155-aec9-00777b5adc9a/badge)](https://nodesecurity.io/orgs/ojkelly/projects/7f441bdb-76ab-4155-aec9-00777b5adc9a)[![Known Vulnerabilities](https://snyk.io/test/npm/wedgetail/badge.svg)](https://snyk.io/test/npm/wedgetail)
 
 _Performance test your functions_
 
