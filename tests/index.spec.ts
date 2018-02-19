@@ -9,14 +9,14 @@ import {
 
 test("Can time a function", async t => {
     const allowedPerformance: Timings = {
-        average: 0.001,
+        average: 0.5,
         high: 1,
-        low: 0.001,
+        low: 0.01,
         percentiles: {
-            ninetieth: 0.0004,
-            ninetyFifth: 0.001,
-            ninetyNinth: 0.001,
-            tenth: 0.0005,
+            ninetieth: 0.5,
+            ninetyFifth: 0.5,
+            ninetyNinth: 0.5,
+            tenth: 0.5,
         },
     };
     const timings: TimedPerformance = await timeExecution({
