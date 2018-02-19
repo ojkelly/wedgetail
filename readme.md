@@ -1,5 +1,12 @@
 # Wedgetail
 
+[![View on npm](https://img.shields.io/npm/v/wedgetail.svg)](https://npmjs.org/packages/wedgetail)
+[![npm downloads](https://img.shields.io/npm/dm/wedgetail.svg)](https://npmjs.org/packages/wedgetail)
+[![Dependencies](https://img.shields.io/david/ojkelly/wedgetail.svg)](https://david-dm.org/ojkelly/wedgetail)
+[![Build Status](https://travis-ci.org/ojkelly/wedgetail.svg?branch=master)](https://travis-ci.org/ojkelly/wedgetail)
+[![codecov](https://codecov.io/gh/ojkelly/wedgetail/branch/master/graph/badge.svg)](https://codecov.io/gh/ojkelly/wedgetail)
+[![NSP Status](https://nodesecurity.io/orgs/ojkelly/projects/7f441bdb-76ab-4155-aec9-00777b5adc9a/badge)](https://nodesecurity.io/orgs/ojkelly/projects/7f441bdb-76ab-4155-aec9-00777b5adc9a)[![Known Vulnerabilities](https://snyk.io/test/npm/bunjil/badge.svg)](https://snyk.io/test/npm/wedgetail)
+
 _Performance test your functions_
 
 Wedgetail is a small performance tesing library that runs on NodeJS `9.5.0` and above. It's designed
