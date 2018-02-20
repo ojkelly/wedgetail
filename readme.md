@@ -33,10 +33,11 @@ To use `wedgetail` you need to call in inside the callback.
 // javascript
 import test from "ava";
 
-import { timeExecution } from "../src/index";
+import { timeExecution } from "wedgetail";
 
 test("Can time a function", async t => {
-    // This object contains a definition of the threshold at which your function is too slow.
+    // This object contains a definition of the threshold
+    // at which your function is too slow.
     // All timings are in milliseconds(ms)
     const allowedPerformance = {
         average: 0.001,
@@ -53,7 +54,8 @@ test("Can time a function", async t => {
     const timings = await timeExecution({
         expectedTimings: allowedPerformance,
         numberOfExecutions: 5000,
-        // By using an anonymous arrow function you should be able to maintain the correct scope
+        // By using an anonymous arrow function you should
+        // be able to maintain the correct scope
         // of `this`.
         callback: () => {
             // Your function goes here
@@ -71,10 +73,11 @@ test("Can time a function", async t => {
 // typescript
 import test from "ava";
 
-import { timeExecution, Timings, TimedPerformance } from "../src/index";
+import { timeExecution, Timings, TimedPerformance } from "wedgetail";
 
 test("Can time a function", async t => {
-    // This object contains a definition of the threshold at which your function is too slow.
+    // This object contains a definition of the threshold
+    // at which your function is too slow.
     // All timings are in milliseconds(ms)
     const allowedPerformance: Timings = {
         average: 0.001,
@@ -91,7 +94,8 @@ test("Can time a function", async t => {
     const timings: TimedPerformance = await timeExecution({
         expectedTimings: allowedPerformance,
         numberOfExecutions: 5000,
-        // By using an anonymous arrow function you should be able to maintain the correct scope
+        // By using an anonymous arrow function you should
+        // be able to maintain the correct scope
         // of `this`.
         callback: () => {
             // Your function goes here
