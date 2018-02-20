@@ -6,9 +6,9 @@ docs:
   integration:
     typescript: typescript.html
     ava: ava.html
-    mocha: ava.html
-    jest: ava.html
-    jasmine: ava.html
-    tape: ava.html
+    mocha: mocha.html
+    jest: jest.html
+    jasmine: jasmine.html
+    tape: tape.html
   miscellaneous:
     contributing: contributing.html
