@@ -1,72 +1,36 @@
 title: Documentation
 ---
-Welcome to the Hexo documentation. If you encounter any problems when using Hexo, have a look at the  [troubleshooting guide](troubleshooting.html), raise an issue on [GitHub](https://github.com/hexojs/hexo/issues) or start a topic on the [Google Group](https://groups.google.com/group/hexo).
+Welcome to the Wedgetail documentation. If you encounter any problems when using Wedgetail, have a look at the  [troubleshooting guide](troubleshooting.html), raise an issue on [GitHub](https://github.com/ojkelly/wedgetail/issues).
 
-## What is Hexo?
+## What is Wedgetail?
 
-Hexo is a fast, simple and powerful blog framework. You write posts in [Markdown](http://daringfireball.net/projects/markdown/) (or other languages) and Hexo generates static files with a beautiful theme in seconds.
+Wedgetail is a small and simple profiler. It's focus is to provide timing information for a large
+number of invocations of the same function. This allows you to derive meaningful statistics of the
+performance of the function.
+
+Wedgetail is added to your tests, and can help you ensure you're not adding code that is dramatically
+slowing down your app or module.
 
 ## Installation
 
-It only takes a few minutes to set up Hexo. If you encounter a problem and can't find the solution here, please [submit a GitHub issue](https://github.com/hexojs/hexo/issues) and I'll try to solve it.
-
-{% youtube ARted4RniaU %}
+It only takes a few minutes to set up Wedgtail. If you encounter a problem and can't find the solution here, please [submit a GitHub issue](https://github.com/ojkelly/wedgetail/issues) and I'll try to solve it.
 
 ### Requirements
 
-Installing Hexo is quite easy. However, you do need to have a couple of other things installed first:
+NodeJS 9.5.0 and up.
 
-- [Node.js](http://nodejs.org/)
-- [Git](http://git-scm.com/)
+Wedgetail relies on the `performance.now()` implementation from `perf_hooks`. It's designed to test
+NodeJS modules. If you want to help add support for browser functions [submit a GitHub issue](https://github.com/ojkelly/wedgetail/issues) or pull request.
 
-If your computer already has these, congratulations! Just install Hexo with npm:
+
+### Install Wedgetail
+
+Install `wedgetail` to your `devDependencies`.
 
 ``` bash
-$ npm install -g hexo-cli
+$ npm install --save-dev wedgetail
 ```
 
-If not, please follow the following instructions to install all the requirements.
-
-{% note warn For Mac users %}
-You may encounter some problems when compiling. Please install Xcode from App Store first. After Xcode is installed, open Xcode and go to **Preferences -> Download -> Command Line Tools -> Install** to install command line tools.
-{% endnote %}
-
-### Install Git
-
-- Windows: Download & install [git](https://git-scm.com/download/win).
-- Mac: Install it with [Homebrew](http://mxcl.github.com/homebrew/), [MacPorts](http://www.macports.org/) or [installer](http://sourceforge.net/projects/git-osx-installer/).
-- Linux (Ubuntu, Debian): `sudo apt-get install git-core`
-- Linux (Fedora, Red Hat, CentOS): `sudo yum install git-core`
-
-### Install Node.js
-
-The best way to install Node.js is with [Node Version Manager](https://github.com/creationix/nvm).
-Thankfully the creators of nvm provide a simple script that automatically installs nvm:
-
-cURL:
-
 ``` bash
-$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-```
-
-Wget:
-
-``` bash
-$ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-```
-
-Once nvm is installed, restart the terminal and run the following command to install Node.js:
-
-``` bash
-$ nvm install stable
-```
-
-Alternatively, download and run [the installer](http://nodejs.org/).
-
-### Install Hexo
-
-Once all the requirements are installed, you can install Hexo with npm:
-
-``` bash
-$ npm install -g hexo-cli
+$ yarn add -D wedgetail
 ```

@@ -1,6 +1,6 @@
 title: Troubleshooting
 ---
-In case you're experiencing problems with using Hexo, here is a list of solutions to some frequently encountered issues. If this page doesn't help you solve your problem, try doing a search on [GitHub](https://github.com/hexojs/hexo/issues) or our [Google Group](https://groups.google.com/group/hexo).
+In case you're experiencing problems with using Hexo, here is a list of solutions to some frequently encountered issues. If this page doesn't help you solve your problem, try doing a search on [GitHub](https://github.com/ojkelly/wedgetail/issues) or our [Google Group](https://groups.google.com/group/hexo).
 
 ## YAML Parsing Error
 
@@ -44,7 +44,7 @@ Increase Node.js heap memory size by changing the first line of `hexo-cli` (`whi
 #!/usr/bin/env node --max_old_space_size=8192
 ```
 
-[Out of memory while generating a huge blog · Issue #1735 · hexojs/hexo](https://github.com/hexojs/hexo/issues/1735)
+[Out of memory while generating a huge blog · Issue #1735 · ojkelly/wedgetail](https://github.com/ojkelly/wedgetail/issues/1735)
 
 ## Git Deployment Problems
 
@@ -88,7 +88,7 @@ DTrace install may have issue, use this:
 ```sh
 $ npm install hexo --no-optional
 ```
-See [#1326](https://github.com/hexojs/hexo/issues/1326#issuecomment-113871796)
+See [#1326](https://github.com/ojkelly/wedgetail/issues/1326#issuecomment-113871796)
 
 ## Iterate Data Model on Jade or Swig
 

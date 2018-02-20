@@ -2246,9 +2246,9 @@ hexo-util@^0.6.0:
     html-entities "^1.2.0"
     striptags "^2.1.1"
 
-"hexo@github:hexojs/hexo":
+"hexo@github:ojkelly/wedgetail":
   version "3.5.0"
-  resolved "https://codeload.github.com/hexojs/hexo/tar.gz/c9700c401d32c00997a73f464d68550f40110e1c"
+  resolved "https://codeload.github.com/ojkelly/wedgetail/tar.gz/c9700c401d32c00997a73f464d68550f40110e1c"
   dependencies:
     abbrev "^1.0.7"
     archy "^1.0.0"
