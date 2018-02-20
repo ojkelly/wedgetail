@@ -1,3 +1,5 @@
+<img src="https://wedgetail.netlify.com/logo.png" height=100 width=100 />
+
 # Wedgetail
 
 _Performance test your functions_
