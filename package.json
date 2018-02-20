@@ -6,7 +6,8 @@
     "version": "3.5.0"
   },
   "scripts": {
-    "build": "hexo generate && gulp --watch",
+    "build": "yarn clean && hexo generate && gulp --watch",
+    "clean": "rm -rf ./public",
     "serve": "npx http-server ./public",
     "eslint": "eslint .",
     "deploy": "hexo deploy"
