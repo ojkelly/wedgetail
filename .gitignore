@@ -1,27 +1,8 @@
-dist/**
-lib
-
 .DS_Store
-
-# Logs
-logs
+.idea/
+node_modules/
 *.log
-
-# Coverage directory used by tools like istanbul
-coverage
-.nyc_output
-
-# Dependency directory
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
-node_modules
-node_modules/*
-
-# Artifacts
-build/**
-typings/**
-
-# Compiled graphql Cache and typings
-.graphql/**
-
-yarn-error.log
-
+db.json
+public/
+.deploy*/
+package-lock.json

@@ -1,0 +1,21 @@
+title: Wedgetail
+subtitle: "Time your functions in your tests."
+description: "Time your functions in your tests"
+author: Owen Kelly
+language: en
+timezone: UTC
+
+url: https://wedgetail.js.org
+root: /
+
+theme: navy
+deploy:
+  type: git
+  repo: git@github.com:ojkelly/wedgetail.git#documentation
+
+highlight:
+  enable: true
+  line_number: false
+
+twitter: ojkelly
+github: ojkelly/wedgetail
