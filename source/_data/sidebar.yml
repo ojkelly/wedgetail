@@ -11,5 +11,4 @@ docs:
     jasmine: ava.html
     tape: ava.html
   miscellaneous:
-    troubleshooting: troubleshooting.html
     contributing: contributing.html
