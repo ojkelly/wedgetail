@@ -2,9 +2,7 @@ title: Wedgetail with Jasmine
 ---
 
 ``` javascript
-
 import { describe, it } from "jasmine";
-
 import { timeExecution } from "wedgetail";
 
 describe("A function", function() {

@@ -2,9 +2,7 @@ title: Wedgetail with Tape
 ---
 
 ``` javascript
-
 import tape from "tape";
-
 import { timeExecution } from "wedgetail";
 
 test("Can time a function", async t => {

@@ -2,8 +2,8 @@ title: Wedgetail with Mocha
 ---
 
 ``` javascript
-
 import { it } from "mocha";
+import { timeExecution } from "wedgetail";
 
 it("Test function performance", async () => {
     const allowedPerformance = {

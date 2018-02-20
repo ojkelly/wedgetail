@@ -2,7 +2,6 @@ title: Wedgetail with AVA
 ---
 
 ``` javascript
-
 import test from "ava";
 
 import { timeExecution } from "wedgetail";

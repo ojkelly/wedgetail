@@ -2,7 +2,6 @@ title: Wedgetail with Jest
 ---
 
 ``` javascript
-
 import { timeExecution } from "wedgetail";
 
 test("Can time a function", async t => {
