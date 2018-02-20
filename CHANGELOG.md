@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.9.9"></a>
+## [0.9.9](https://github.com/ojkelly/wedgetail/compare/v0.9.8...v0.9.9) (2018-02-20)
+
+
+
 <a name="0.9.8"></a>
 ## [0.9.8](https://github.com/ojkelly/wedgetail/compare/v0.9.7...v0.9.8) (2018-02-20)
 
