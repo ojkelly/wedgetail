@@ -1,3 +1,4 @@
+# Dont build docs in travis
 branches:
   except:
-    - documentation
+  - documentation
