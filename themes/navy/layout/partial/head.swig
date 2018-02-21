@@ -27,7 +27,6 @@
   <link rel="icon" type="image/png" href="{{ url_for('icon/favicon-32x32.png') }}" sizes="32x32">
   <meta name="msapplication-TileColor" content="#2f83cd">
   <meta name="msapplication-TileImage" content="{{ url_for('icon/mstile-144x144.png') }}">
-  <meta name="generator" content="Hexo {{ hexo_version() }}">
   <!-- CSS -->
   <!-- build:css build/css/navy.css -->
   {{ css('css/navy') }}
@@ -39,7 +38,6 @@
   {{ feed_tag('atom.xml') }}
   <!-- Open Graph -->
   {{ open_graph({
-    fb_admins: config.fb_admins,
     twitter_site: config.twitter
   }) }}
   <!-- Google Analytics -->
