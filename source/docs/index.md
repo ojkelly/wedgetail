@@ -6,7 +6,7 @@ Welcome to the Wedgetail documentation. If you encounter any problems when using
 
 Wedgetail is a small and simple profiler. It's focus is to provide timing information for a large
 number of invocations of the same function. This allows you to derive meaningful statistics of the
-performance of the function.
+performance of that function.
 
 Wedgetail is added to your tests, and can help you ensure you're not adding code that is dramatically
 slowing down your app or module.
