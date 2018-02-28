@@ -1,6 +1,6 @@
 {
   "name": "wedgetail",
-  "version": "0.9.9",
+  "version": "1.0.0",
   "description": "Time your functions in your tests",
   "main": "./lib/src/index.js",
   "scripts": {
@@ -16,7 +16,9 @@
     "send-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov",
     "docs": "typedoc src/index.ts --excludePrivate --mode file --theme minimal --out lib/docs && opn lib/docs/index.html",
     "docs:json": "typedoc --mode file --json lib/docs/typedoc.json src/index.ts",
-    "release": "yarn run build && standard-version"
+    "release-minor": "yarn run build && standard-version --release-as minor",
+    "release-patch": "yarn run build && standard-version --release-as patch",
+    "release-major": "yarn run build && standard-version --sign --release-as major"
   },
   "scripts-info": {
     "info": "Display information about the scripts",
