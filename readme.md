@@ -10,6 +10,7 @@ _Performance test your functions_
 [![Build Status](https://travis-ci.org/ojkelly/wedgetail.svg?branch=master)](https://travis-ci.org/ojkelly/wedgetail)
 [![codecov](https://codecov.io/gh/ojkelly/wedgetail/branch/master/graph/badge.svg)](https://codecov.io/gh/ojkelly/wedgetail)
 [![NSP Status](https://nodesecurity.io/orgs/ojkelly/projects/7f441bdb-76ab-4155-aec9-00777b5adc9a/badge)](https://nodesecurity.io/orgs/ojkelly/projects/7f441bdb-76ab-4155-aec9-00777b5adc9a)[![Known Vulnerabilities](https://snyk.io/test/npm/wedgetail/badge.svg)](https://snyk.io/test/npm/wedgetail)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fojkelly%2Fwedgetail.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fojkelly%2Fwedgetail?ref=badge_shield)
 
 Wedgetail is a small performance tesing library that runs on NodeJS `9.5.0` and above. It's designed
 to be used inside your tests, to ensure your desired function is always as fast as you want it to be.
@@ -135,3 +136,6 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ojkelly/wedgetail/LICENSE.md) file for details
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fojkelly%2Fwedgetail.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fojkelly%2Fwedgetail?ref=badge_large)
